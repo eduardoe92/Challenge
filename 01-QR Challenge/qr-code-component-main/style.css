@@ -1,0 +1,80 @@
+:root {
+  --color-lightGrey: hsl(212, 45%, 89%);
+  --color-darkNavy: hsl(218, 44%, 22%);
+  --color-grey: hsl(220, 15%, 55%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--color-lightGrey);
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .title{
+    margin: 15px 5px;
+  }
+  
+}
+
+#qr_Box {
+  background-color: var(--color-white);
+  width: max(20vw, 325px);
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+#qrCode {
+  border-radius: 15px;
+  margin-top: 5%;
+  width: 90%;
+}
+
+h1 {
+  color: var(--color-darkNavy);
+  font-size: max(20px, 1rem);
+  font-family: Outfit;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10%;
+  width: 80%;
+}
+
+p {
+  color: var(--color-grey);
+  font-family: Outfit;
+  text-align: center;
+  margin-bottom: 10%;
+  font-weight: 400;
+  font-size: 15px;
+  width: 80%;
+}
+
+footer {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
