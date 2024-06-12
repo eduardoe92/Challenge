@@ -15,29 +15,29 @@ body {
   margin: 0;
 }
 
-#qr_Box {
+#qr-Box {
   background-color: var(--color-white);
-  width: max(20vw, 325px);
+  width: max(14vw, 325px);
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 22px;
   align-items: center;
   text-align: center;
   display: flex;
 }
 
 #qrCode {
-  border-radius: 10px;
-  margin-top: 18px;
+  border-radius: 12px;
+  margin-top: 15px;
   width: 90%;
 }
 
 h1 {
   color: var(--color-darkNavy);
-  font-size: 26px;
+  font-size: 22px;
   font-family: Outfit;
   text-align: center;
   font-weight: 700;
-  margin: 28px 0 10px 0;
+  margin: 20px 0 10px 0;
   width: 88%;
 }
 
@@ -47,24 +47,6 @@ p {
   text-align: center;
   margin: 15px 0 40px 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   width: 80%;
-}
-
-@media (min-width: 431px) and (max-width: 1024px) {
-  h1{
-    font-size: 24px;
-  }
-  p{
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 430px) {
-  h1{
-    font-size: 22px;
-  }
-  p{
-    font-size: 16px;
-  }
 }
