@@ -5,6 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -16,6 +17,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+### The challenge
+
+- This Frontend Mentor challenge is to create a QR code component using HTML and CSS. The goal is to replicate a provided design that includes a QR code, a title, a paragraph, and a container card. It is an excellent practice to improve your skills in web layout and styling.
 
 ### Screenshot
 
