@@ -23,6 +23,11 @@ In this repository you will find the solutions for various Frontend Mentor chall
   - [Repository](https://github.com/eduardoe92/Challenge/tree/main/01-QR%20Challenge/qr-code-component-main)
   - Description: This challenge consisted of creating a QR code component for a website.
 
+- Age Calculator
+  - [Website](https://agecalculator-frontendmentor.vercel.app/)
+  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/02-Age%20Calculator/age-calculator-app-main)
+  - Description: This challenge consisted of creating a QR code component for a website.
+
 Each challenge folder contains all the files needed for the solution. Some challenges may require installing additional dependencies. See the README inside each challenge folder for more details.
 
 ## Used technology
