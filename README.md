@@ -6,9 +6,7 @@ This repository contains solutions for various Frontend Mentor challenges. Front
 
 - [Description](#description)
 - [Challenges Completed](#challenges-completed)
-- [Installation](#installation)
-- [Use](#use)
-- [Technologies Used](#technologies-used)
+- [Used Technology](#used-technology)
 - [Author](#author)
 - [Thanks](#thanks)
 
@@ -26,16 +24,16 @@ In this repository you will find the solutions for various Frontend Mentor chall
 - Age Calculator
   - [Website](https://agecalculator-frontendmentor.vercel.app/)
   - [Repository](https://github.com/eduardoe92/Challenge/tree/main/02-Age%20Calculator/age-calculator-app-main)
-  - Description: This challenge consisted of creating a QR code component for a website.
+  - Description: The challenge was to create a component to calculate the time elapsed since a specific date.
 
 Each challenge folder contains all the files needed for the solution. Some challenges may require installing additional dependencies. See the README inside each challenge folder for more details.
 
-## Used technology
+## Used Technology
 
 - HTML5
--CSS3
+- CSS3
 - JavaScript
--React
+- React
 - Next.js
 - Styled Components
 - Other technologies depending on the challenge
@@ -60,8 +58,6 @@ Este repositorio contiene soluciones para varios desafíos de Frontend Mentor. L
 
 - [Descripción](#descripción)
 - [Desafíos Completados](#desafíos-completados)
-- [Instalación](#instalación)
-- [Uso](#uso)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Autor](#autor)
 - [Agradecimientos](#agradecimientos)
@@ -76,6 +72,11 @@ En este repositorio encontrarás las soluciones para diversos desafíos de Front
   - [Sitio Web](https://qrchallenge-frontendmentor.vercel.app/)
   - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/01-QR%20Challenge/qr-code-component-main)
   - Descripción: Este desafío consistió en crear un componente de código QR para un sitio web.
+
+- Calculadora de edad
+  - [Sitio web](https://agecalculator-frontendmentor.vercel.app/)
+  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/02-Age%20Calculator/age-calculator-app-main)
+  - Descripción: El desafío era crear un componente para calcular el tiempo transcurrido desde una fecha específica.
 
 Cada carpeta de desafío contiene todos los archivos necesarios para la solución. Algunos desafíos pueden requerir la instalación de dependencias adicionales. Consulta el README dentro de cada carpeta de desafío para más detalles.
 
