@@ -10,9 +10,9 @@
     --Purple: rgb(133, 77, 255);
     --Light-red: rgb(255, 87, 87);
 
-    --White: #ffffff;
-    --background-color: #f1f1f1;
-    --Light-grey: #dbdbdb;
+    --White: rgb(255, 255, 255);
+    --background-color: rgb(241, 241, 241);
+    --Light-grey: rgb(219, 219, 219);
     --Smokey-grey: rgb(113, 111, 111);
     --Off-black: rgb(20, 20, 20);
     --Input-gray: rgb(132, 132, 132);
