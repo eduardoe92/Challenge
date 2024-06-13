@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Purple: rgb(133, 77, 255);
+    --Light-red: rgb(255, 87, 87);
+
+    --White: #ffffff;
+    --background-color: #f1f1f1;
+    --Light-grey: #dbdbdb;
+    --Smokey-grey: rgb(113, 111, 111);
+    --Off-black: rgb(20, 20, 20);
+    --Input-gray: rgb(132, 132, 132);
+    --box-shadow-color1: rgba(50, 50, 93, 0.25);
+    --box-shadow-color2: rgba(0, 0, 0, 0.3);
+}
+
+h1, span {
+    font-size: 6.25rem;
+    line-height: 6.638rem;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
+
+span {
+    color: var(--Purple);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+main {
+    padding: 56px 56px 82px;
+    width: 840px;
+    background-color: var(--White);
+    border-radius: 28px;
+    border-bottom-right-radius: 200px;
+}
+
+/*-------------*/
+/*----Input----*/
+/*-------------*/
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 184px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    text-transform: uppercase;
+    color: var(--Smokey-grey);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+input {
+    padding: 17px 24px;
+    width: 158px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    border: none;
+    border-radius: 7px;
+}
+
+input::placeholder {
+    color: var(--Input-gray);
+    font-weight: 900;
+}
+
+.input-year, .input-month, .input-day {
+    border: 1px solid var(--Light-grey);
+    border-radius: 7px;
+}
+
+/*-------------*/
+/*-----Form----*/
+/*-------------*/
+
+.submit-form {
+    display: flex;
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 48px;
+}
+
+.line {
+    background-color: var(--Light-grey);
+    height: 2px;
+    width: 100%;
+}
+
+/*--------------*/
+/*----Button----*/
+/*--------------*/
+
+button {
+    background-color: var(--Purple);
+    border: none;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    position: absolute;
+    right: 0;
+}
+
+button:hover {
+    background-color: var(--Off-black);
+    box-shadow: var(--box-shadow-color1) 0px 13px 27px -5px, var(--box-shadow-color2) 0px 8px 16px -8px;
+}
+
+/*--------------*/
+/*----Result----*/
+/*--------------*/
+
+.result-section {
+    font-style: italic;
+    margin-top: 48px;
+}
+
+.result {
+    display: flex;
+    gap: 10px;
+}
+
+/*--------------*/
+/*-----Error----*/
+/*--------------*/
+
+.error-message {
+    color: var(--Light-red);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.error-day, .error-month, .error-year {
+    display: none;
+}
+
+/*------------------*/
+/*----Responsive----*/
+/*------------------*/
+
+@media (max-width: 1024px) {
+    h1, span {
+        font-size: 5.25rem;
+    }
+    main {
+        width: 90%;
+    }
+    .user-input {
+        margin-right: 0;
+        justify-content: space-between;
+    }
+    .input-area {
+        width: 30%;
+    }
+    input {
+        width: 100%;
+        padding: 16px 23px;
+    }
+    .form-submit {
+        margin-top: 74px;
+    }
+    button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .result-section {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1, span {
+        font-size: 4rem;
+        line-height: 5.348rem;
+    }
+    main {
+        padding: 44px;
+    }
+    input {
+        font-size: 1.5rem;
+        padding: 15px 22px;
+    }
+    button {
+        height: 80px;
+        width: 80px;
+    }
+    button img {
+        width: 42px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1, span {
+        font-size: 3.2rem;
+        line-height: 4.938rem;
+    }
+    main {
+        padding: 50px 30px;
+        border-bottom-right-radius: 150px;
+    }
+    input {
+        font-size: 1.1rem;
+        padding: 14px 14px;
+    }
+    .form-submit {
+        margin-top: 74px;
+    }
+    .result-section {
+        margin-top: 40px;
+    }
+}
