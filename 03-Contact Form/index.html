@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Contact form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Contact form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Contact Us
-
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <body>
+    <main>
+      <form id="contactForm">
+        <h1>Contact Us</h1>
+        <div class="name-surname">
+          <label for="first-name">First Name <span class="star">*</span></label>
+          <label for="last-name">Last Name <span class="star">*</span></label>
+          <input id="first-name" type="text" name="first-name" />
+          <input id="last-name" type="text" name="last-name" />
+          <span class="error" id="first-name-error" role="alert"></span>
+          <span class="error" id="last-name-error" role="alert"></span>
+        </div>
+        <div class="email">
+          <label for="email">Email Address <span class="star">*</span></label>
+          <input id="email" type="text" name="email" />
+          <span class="error" id="email-error" role="alert"></span>
+        </div>
+        <p>Query Type <span class="star">*</span></p>
+        <div class="query-type">
+          <div class="general-enquiry">
+            <input type="radio" name="query" id="general-enquiry" />
+            <label for="general-enquiry">General Enquiry</label>
+          </div>
+          <div class="support-request">
+            <input type="radio" name="query" id="support-request" />
+            <label for="support-request">Support Request</label>
+          </div>
+          <span class="error" id="query-error" role="alert"></span>
+        </div>
+        <div class="message">
+          <label for="message">Message <span class="star">*</span></label>
+          <textarea name="message" id="message" rows="5"></textarea>
+          <span class="error" id="message-error" role="alert"></span>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <label for="checkbox">I consent to being contacted by the team</label>
+          <br />
+          <span class="error" id="checkbox-error" role="alert"></span>
+        </div>
+        <br />
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+      <div id="success-message" class="success-message" aria-live="polite"></div>
+    </main>
+    <script src="script.js"></script>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Eduardo Chacón</a>.
+    </div> -->
+  </body>
 </html>
