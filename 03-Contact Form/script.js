@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("contactForm");
     form.addEventListener("submit", function (event) {
-        event.preventDefault(); // Evita que se envíe el formulario automáticamente
+        event.preventDefault();
 
         let isValid = true;
 
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("success-message").textContent =
                 "Form submitted successfully!";
             document.getElementById("success-message").style.display = "block";
-            form.reset(); // Reinicia el formulario después de enviarlo con éxito
+            form.reset();
         }
     });
 
@@ -76,4 +76,26 @@ document.addEventListener("DOMContentLoaded", function () {
         const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return pattern.test(email);
     }
+
+    document.querySelectorAll("input, textarea, select").forEach((element) => {
+        element.addEventListener("input", () => {
+            const errorId = `${element.id}-error`;
+            const errorElement = document.getElementById(errorId);
+            if (element.value.trim() && errorElement.style.display === "block") {
+                errorElement.style.display = "none";
+                errorElement.textContent = "";
+            }
+        });
+
+        if (element.type === "radio") {
+            element.addEventListener("change", () => {
+                const errorId = `${element.name}-error`;
+                const errorElement = document.getElementById(errorId);
+                if (errorElement.style.display === "block") {
+                    errorElement.style.display = "none";
+                    errorElement.textContent = "";
+                }
+            });
+        }
+    });
 });
