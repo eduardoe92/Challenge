@@ -1,13 +1,13 @@
 :root {
-  --primary-color: rgb(0, 191, 255);
+  --primary-color: rgb(0, 115, 154);
   --secondary-color: rgb(33, 39, 65);
   --text-color: rgb(255, 255, 255);
   --background-color: rgb(255, 255, 255);
-  --footer-bg-color: rgb(0, 189, 254);
+  --footer-bg-color: rgb(0, 115, 154);
   --footer-text-color: rgb(255, 255, 255);
-  --border-color: rgb(224, 224, 224);
+  --border-color: rgb(255, 255, 255);
   --high-contrast-text-color: rgb(0, 0, 0);
-  --high-contrast-bg-color: rgb(245, 245, 245);
+  --high-contrast-bg-color: rgb(255, 255, 255);
   --navbar-text-color: rgb(255, 255, 255);
   --welcome-text-color: rgb(33, 39, 65);
 }
@@ -215,6 +215,7 @@ h3 {
 
 h4 {
   font-size: 20px;
+  color: var(--primary-color);
 }
 
 .popular-item {
