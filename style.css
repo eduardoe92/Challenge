@@ -6,6 +6,10 @@
   --footer-bg-color: rgb(0, 189, 254);
   --footer-text-color: rgb(255, 255, 255);
   --border-color: rgb(224, 224, 224);
+  --high-contrast-text-color: rgb(0, 0, 0);
+  --high-contrast-bg-color: rgb(245, 245, 245);
+  --navbar-text-color: rgb(255, 255, 255);
+  --welcome-text-color: rgb(33, 39, 65);
 }
 
 ::-webkit-scrollbar {
@@ -22,6 +26,7 @@
 }
 
 body {
+  color: var(--high-contrast-text-color);
   background-color: var(--background-color);
 }
 
@@ -42,7 +47,12 @@ a {
 .navbar-text {
   font-size: 26px;
   font-weight: bold;
-  color: var(--text-color);
+  color: var(--navbar-text-color);
+}
+
+.navbar.bg-body-tertiary.fixed-top {
+  background-color: var(--secondary-color);
+  color: var(--navbar-text-color);
 }
 
 .logo {
@@ -56,7 +66,8 @@ a {
 
 .welcome-section {
   padding: 8% 10%;
-  background-color: var(--background-color);
+  background-color: var(--high-contrast-bg-color);
+  color: var(--high-contrast-text-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +88,7 @@ a {
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--welcome-text-color);
   text-align: center;
 }
 
@@ -85,7 +96,7 @@ a {
   font-size: 24px;
   max-width: 650px;
   line-height: 1.6;
-  color: var(--secondary-color);
+  color: var(--welcome-text-color);
   text-align: justify;
 }
 
@@ -198,7 +209,7 @@ section.popular-categories .main-button {
 
 h3 {
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--high-contrast-text-color);
   font-weight: bold;
 }
 
@@ -291,7 +302,7 @@ h4 {
 /*---------------*/
 
 .footer {
-  background-color: var(--footer-bg-color) !important;
+  background-color: var(--footer-bg-color);
   padding: 20px 10%;
   color: var(--footer-text-color);
 }
