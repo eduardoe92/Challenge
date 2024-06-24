@@ -158,7 +158,7 @@ section {
   font-weight: 400;
 }
 
-.section-heading h4 {
+.section-heading h3 {
   margin-top: 10px;
   line-height: 36px;
   font-size: 30px;
@@ -169,7 +169,7 @@ section {
 
 .welcome-text h1 em,
 .welcome-text p em,
-.section-heading h4 em {
+.section-heading h3 em {
   color: var(--primary-color);
   font-style: normal;
 }
