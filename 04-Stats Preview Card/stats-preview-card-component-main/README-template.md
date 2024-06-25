@@ -34,25 +34,11 @@ Users should be able to:
 - Solution URL: [Add solution URL here]()
 - Live Site URL: [Add live site URL here]()
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-
-
-### Continued development
-
-
 
 ### Useful resources
 
