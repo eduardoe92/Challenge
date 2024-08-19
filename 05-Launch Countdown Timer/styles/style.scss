@@ -1,0 +1,153 @@
+$primary-color: #fb5e84;
+$background-color: #1d1e28;
+$card-background: #343650;
+$text-color: #8385a9;
+$font-family: 'rhtBold', sans-serif;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin time-segment {
+  height: 50%;
+  padding: calc(clamp(66.26px, 17.6vw, 150px) * 15 / 100);
+  overflow: hidden;
+  font: clamp(36px, 9.6vw, 80px) $font-family;
+  letter-spacing: -2.4px;
+
+  @media screen and (max-width: 768px) {
+    letter-spacing: -1.08px;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: calc(1em + 0.5rem);
+  -webkit-font-smoothing: antialiased;
+  background: $background-color url(../images/bg-stars.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select { font: inherit; }
+
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+
+@font-face {
+  font-family: 'rhtBold';
+  src: url(./red-hat.display-bold.ttf) format('truetype');
+  font-display: swap;
+}
+
+main {
+  margin-top: 132px;
+  display: grid;
+  text-align: center;
+  gap: clamp(54px, 14.4vw, 104px);
+
+  h1 {
+    font: clamp(18px, 4.8vw, 22px) $font-family;
+    color: white;
+    letter-spacing: 7.5px;
+
+    @media screen and (max-width: 768px) { letter-spacing: 6.14px; }
+  }
+}
+
+.timer {
+  @include flex-center;
+  gap: clamp(16px, 4.2vw, 32px);
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(9px, 2.4vw, 16px);
+
+    .time {
+      position: relative;
+      display: inline-flex;
+      flex-direction: column;
+      width: clamp(70px, 17vw, 148px);
+      height: clamp(66.26px, 17.6vw, 150px);
+      color: $primary-color;
+
+      .top, .bottom, .top-flip, .bottom-flip {
+        @include time-segment;
+        @include flex-center;
+      }
+
+      .top, .top-flip {
+        background-color: darken($card-background, 5%);
+        border-radius: 10px 10px 0 0;
+        color: darken($primary-color, 5%);
+      }
+
+      .bottom, .bottom-flip {
+        background-color: $card-background;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 10px 0px #191a23;
+        align-items: flex-end;
+      }
+
+      .top { border-bottom: 2px solid lighten(#000000, 20%); }
+
+      .top-flip, .bottom-flip {
+        position: absolute;
+        width: 100%;
+      }
+
+      .top-flip {
+        border-bottom: 1px solid lighten(#000000, 5%);
+        transform-origin: bottom;
+        animation: flip-top 250ms ease-in;
+      }
+
+      .bottom-flip {
+        bottom: 0;
+        transform-origin: top;
+        animation: flip-bottom 250ms ease-out 250ms;
+        transform: rotateX(90deg);
+      }
+    }
+
+    p {
+      font: clamp(7px, 1.8vw, 14px) $font-family;
+      color: $text-color;
+      letter-spacing: 5.92px;
+
+      @media screen and (max-width: 768px) { letter-spacing: 2.86px; }
+    }
+  }
+}
+
+footer {
+  background-image: url(../images/pattern-hills.svg);
+  width: 100%;
+  height: 196px;
+  @include flex-center;
+  align-items: center;
+  gap: 32px;
+
+  a:hover path {
+    fill: $primary-color;
+    cursor: pointer;
+  }
+}
+
+@keyframes flip-top { 100% { transform: rotateX(90deg); } }
+@keyframes flip-bottom { 100% { transform: rotateX(0deg); } }

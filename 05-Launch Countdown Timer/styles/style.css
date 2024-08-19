@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: calc(1em + 0.5rem);
+  -webkit-font-smoothing: antialiased;
+  background: #1d1e28 url(../images/bg-stars.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+@font-face {
+  font-family: "rhtBold";
+  src: url(./red-hat.display-bold.ttf) format("truetype");
+  font-display: swap;
+}
+
+main {
+  margin-top: 132px;
+  display: grid;
+  text-align: center;
+  gap: clamp(54px, 14.4vw, 104px);
+}
+
+main h1 {
+  font: clamp(18px, 4.8vw, 22px) "rhtBold", sans-serif;
+  color: white;
+  letter-spacing: 7.5px;
+}
+
+@media screen and (max-width: 768px) {
+  main h1 {
+    letter-spacing: 6.14px;
+  }
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: clamp(16px, 4.2vw, 320px);
+}
+
+.timer__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(9px, 2.4vw, 16px);
+}
+
+.timer__card .time {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: clamp(70px, 17vw, 148px);
+  height: clamp(66.26px, 17.6vw, 150px);
+  color: #fb5e84;
+}
+
+.timer__card .time .top,
+.timer__card .time .bottom,
+.timer__card .time .top-flip,
+.timer__card .time .bottom-flip {
+  height: 50%;
+  padding: calc(clamp(66.26px, 17.6vw, 150px) * 15 / 100);
+  overflow: hidden;
+  font: clamp(36px, 9.6vw, 80px) "rhtBold", sans-serif;
+  letter-spacing: -2.4px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .timer__card .time .top,
+  .timer__card .time .bottom,
+  .timer__card .time .top-flip,
+  .timer__card .time .bottom-flip {
+    letter-spacing: -1.08px;
+  }
+}
+
+.timer__card .time .top,
+.timer__card .time .top-flip {
+  background-color: #2a2c41;
+  border-radius: 10px;
+  color: #fa4571;
+}
+
+.timer__card .time .bottom,
+.timer__card .time .bottom-flip {
+  background-color: #343650;
+  border-radius: 10px;
+  box-shadow: 0px 10px 0px #191a23;
+  align-items: flex-end;
+}
+
+.timer__card .time .top {
+  border-bottom: 1px solid #333333;
+}
+
+.timer__card .time .top-flip,
+.timer__card .time .bottom-flip {
+  position: absolute;
+  width: 100%;
+}
+
+.timer__card .time .top-flip {
+  border-bottom: 1px solid #0d0d0d;
+  transform-origin: bottom;
+  animation: flip-top 250ms ease-in;
+}
+
+.timer__card .time .bottom-flip {
+  bottom: 0;
+  transform-origin: top;
+  animation: flip-bottom 250ms ease-out 250ms;
+  transform: rotateX(90deg);
+}
+
+.timer__card p {
+  font: clamp(7px, 1.8vw, 14px) "rhtBold", sans-serif;
+  color: #8385a9;
+  letter-spacing: 5.92px;
+}
+
+@media screen and (max-width: 768px) {
+  .timer__card p {
+    letter-spacing: 2.86px;
+  }
+}
+
+footer {
+  background-image: url(../images/pattern-hills.svg);
+  width: 100%;
+  height: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+footer a:hover path {
+  fill: #fb5e84;
+  cursor: pointer;
+}
+
+@keyframes flip-top {
+  100% {
+    transform: rotateX(90deg);
+  }
+}
+@keyframes flip-bottom {
+  100% {
+    transform: rotateX(0deg);
+  }
+}
