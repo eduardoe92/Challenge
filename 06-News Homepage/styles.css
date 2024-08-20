@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("woff2");
+}
+html {
+  font-size: 5px;
+  font-family: inter;
+  overflow-x: hidden;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 5.5px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 6.25px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (min-width: 1400px) {
+  html {
+    font-size: 8.5px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #fffdfa;
+}
+
+.container {
+  padding: 5.6rem 0;
+  width: min(100% - 6.4rem, 130rem);
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 8.9rem 0;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+@media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 6.5rem;
+  }
+}
+.navbar ul {
+  display: flex;
+  transition: all 0.5s ease;
+}
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fffdfa;
+    height: 100vh;
+    width: 70%;
+    transform: translateX(100%);
+    padding: 28.8rem 4.8rem 0 4.8rem;
+  }
+}
+.navbar li {
+  list-style-type: none;
+  font-size: 3.6rem;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .navbar li {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 768px) {
+  .navbar li:not(:last-child) {
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .navbar li:not(:last-child) {
+    margin-bottom: 4.8rem;
+  }
+}
+.navbar a {
+  color: #5e607a;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #f15d51;
+}
+.navbar .open,
+.navbar .close {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .navbar .open,
+  .navbar .close {
+    display: none;
+  }
+}
+.navbar .close {
+  transition: all 0.5s ease;
+  display: none;
+}
+.navbar--open {
+  overflow: hidden;
+}
+.navbar--open::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #00001a;
+  opacity: 0.4;
+}
+.navbar--open ul {
+  right: 0;
+  transform: translateX(0);
+}
+.navbar--open .open {
+  display: none;
+}
+.navbar--open .close {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 5.46rem;
+  right: 4.16rem;
+}
+
+.hero {
+  display: grid;
+}
+@media (max-width: 768px) {
+  .hero {
+    row-gap: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+.hero img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .hero img {
+    grid-column: span 2;
+  }
+}
+@media (max-width: 576px) {
+  .hero img:nth-of-type(1) {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .hero img:nth-of-type(2) {
+    display: none;
+  }
+}
+
+.hero-title {
+  font-size: 6.6rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .hero h1 br {
+    display: none;
+  }
+}
+.hero-text {
+  display: grid;
+  align-content: space-between;
+}
+.hero-text p {
+  font-size: 3rem;
+  color: #5e607a;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+@media (min-width: 768px) {
+  .hero-text p {
+    font-size: 1.6rem;
+  }
+}
+.hero-text button {
+  color: #00001a;
+  background-color: #f15d51;
+  border: none;
+  padding: 1.3rem 3.5rem;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 2.8rem;
+  font-weight: 800;
+  transition: all 0.2s ease;
+}
+@media (min-width: 768px) {
+  .hero-text button {
+    font-size: 2rem;
+  }
+}
+.hero-text button:hover {
+  background-color: #00001a;
+  color: #fffdfa;
+}
+.hero-new {
+  background-color: #00001a;
+  padding: 4.8rem 4.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .hero-new {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero-new {
+    grid-column-start: 3;
+    grid-row: 1 / span 2;
+    padding: 3.2rem 2.4rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-new-item {
+    margin-bottom: 5rem;
+  }
+}
+
+.hero-new-item:not(:last-child) {
+  border-bottom: 1px solid #5e607a;
+}
+
+.hero-new h2 {
+  color: #e9aa52;
+  font-size: 6.4rem;
+}
+
+@media (min-width: 768px) {
+  .hero-new h2 {
+    font-size: 5rem;
+  }
+}
+
+.hero-new h3 {
+  font-weight: 600;
+  color: #fffdfa;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  transition: all 0.1s ease;
+}
+
+@media (min-width: 768px) {
+  .hero-new h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.hero-new h3:hover {
+  color: #e9aa52;
+  cursor: pointer;
+}
+
+.hero-new p {
+  color: #c5c6ce;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+  .hero-new p {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.hero-cards-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 12.8rem;
+  gap: 6rem;
+}
+
+@media (min-width: 768px) {
+  .hero-cards-wrapper {
+    margin-top: 7rem;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-card img {
+  max-width: 100%;
+  height: auto;
+  width: 26rem;
+}
+
+@media (min-width: 768px) {
+  .hero-card img {
+    width: 12.6rem;
+  }
+}
+
+.hero-card-content {
+  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-card h3 {
+  font-size: 6.4rem;
+  color: #f15d51;
+}
+
+@media (min-width: 768px) {
+  .hero-card h3 {
+    font-size: 3.5rem;
+  }
+}
+
+.hero-card h4 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+@media (min-width: 768px) {
+  .hero-card h4 {
+    font-size: 2.3rem;
+  }
+}
+
+.hero-card h4:hover {
+  color: #f15d51;
+}
+
+.hero-card p {
+  font-size: 3rem;
+  line-height: 5.2rem;
+  color: #5e607a;
+}
+
+@media (min-width: 768px) {
+  .hero-card p {
+    font-size: 1.76rem;
+    line-height: 2.5rem;
+  }
+}
