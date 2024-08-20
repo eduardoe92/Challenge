@@ -101,16 +101,16 @@ En este repositorio encontrarás las soluciones para diversos desafíos de Front
   - Descripción: El reto consiste en la creación y funcionamiento de un formulario de contacto.
 
 - Stats Preview Card Component
-  - [Website](https://eduardoe92.github.io/Challenge/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html/)
-  - [Repository](https://github.com/eduardoe92/Challenge/blob/main/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html)
+  - [Sitio web](https://eduardoe92.github.io/Challenge/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html/)
+  - [Repositorio](https://github.com/eduardoe92/Challenge/blob/main/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html)
 
 - Launch Countdown Timer
-  - [Website](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
+  - [Sitio web](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
+  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
   
 - News Homepage
-  - [Website]()
-  - [Repository]()
+  - [Sitio web](https://eduardoe92.github.io/Challenge/06-News%20Homepage/index.html)
+  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/06-News%20Homepage)
 
 Cada carpeta de desafío contiene todos los archivos necesarios para la solución. Algunos desafíos pueden requerir la instalación de dependencias adicionales. Consulta el README dentro de cada carpeta de desafío para más detalles.
 
