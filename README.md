@@ -39,6 +39,10 @@ In this repository you will find the solutions for various Frontend Mentor chall
   - [Website](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
   - [Repository](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
 
+- News Homepage
+  - [Website](https://eduardoe92.github.io/Challenge/06-News%20Homepage/index.html)
+  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/06-News%20Homepage)
+
 Each challenge folder contains all the files needed for the solution. Some challenges may require installing additional dependencies. See the README inside each challenge folder for more details.
 
 ## Used Technology
@@ -103,6 +107,10 @@ En este repositorio encontrarás las soluciones para diversos desafíos de Front
 - Launch Countdown Timer
   - [Website](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
   - [Repository](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
+  
+- News Homepage
+  - [Website]()
+  - [Repository]()
 
 Cada carpeta de desafío contiene todos los archivos necesarios para la solución. Algunos desafíos pueden requerir la instalación de dependencias adicionales. Consulta el README dentro de cada carpeta de desafío para más detalles.
 
