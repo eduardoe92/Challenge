@@ -1,0 +1,131 @@
+:root {
+  --gray-dark: rgb(20, 20, 20);
+  --gray-mid: rgb(31, 31, 31);
+  --gray-light: rgb(51, 51, 51);
+  --green-light: rgb(196, 248, 42);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  background-color: var(--gray-dark);
+  height: 100vh;
+}
+
+.profile-box {
+  background-color: var(--gray-mid);
+  max-width: 38.4rem;
+  max-height: 61.1rem;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  border-radius: 1.2rem;
+}
+
+.profile-content {
+  margin-bottom: 2.4rem;
+}
+
+.profile-avatar {
+  display: block;
+  margin: 0 auto 2.4rem;
+  border-radius: 50%;
+  max-width: 8.8rem;
+  width: 100%;
+}
+
+.profile-name {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+
+.profile-location {
+  height: 2.1rem;
+  color: var(--green-light);
+  margin-bottom: 2.4rem;
+}
+
+.profile-bio {
+  height: 2.1rem;
+  color: white;
+}
+
+.profile-links {
+  flex-direction: column;
+  gap: 1.6rem;
+  max-width: 30.4rem;
+  width: 100%;
+}
+
+.profile-link:link,
+.profile-link:visited {
+  background-color: var(--gray-light);
+  width: 100%;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.2rem 0 1.2rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.profile-location,
+.profile-bio,
+.profile-links {
+  font-size: 1.4rem;
+}
+
+.profile-link:hover,
+.profile-link:active {
+  background-color: var(--green-light);
+  color: var(--gray-mid);
+}
+
+.profile-link:focus {
+  outline: 0.1rem solid var(--green-light);
+  outline-offset: 2px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .profile-box {
+    max-width: 45.6rem;
+    width: 100%;
+  }
+
+  .profile-links {
+    max-width: 37.6rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .profile-box {
+    max-width: 32.7rem;
+    max-height: 57.9rem;
+    width: 100%;
+    height: 100%;
+    padding: 2.4rem;
+  }
+}
