@@ -238,6 +238,7 @@ h4 {
 
 .popular-item img {
   border-radius: 15px;
+  border: 1px solid var(--primary-color);
 }
 
 .popular-item .thumb {
