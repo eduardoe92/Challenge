@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-content {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: white;
+  width: 384px;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card-description {
+  font-family: "Figtree";
+}
+
+.post-category {
+  background-color: hsl(47, 88%, 63%);
+  width: 82px;
+  height: 29px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.post-title {
+  font-size: 24px;
+}
+
+.post-category,
+.post-date,
+.post-title {
+  margin-bottom: 12px;
+}
+
+.post-link:link,
+.post-link:visited {
+  text-decoration: none;
+}
+
+.post-date,
+.post-title,
+.post-link:link,
+.post-link:visited {
+  color: hsl(0, 0%, 7%);
+}
+
+.post-link:hover,
+.post-link:active {
+  color: hsl(47, 88%, 63%);
+}
+
+.post-description {
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 32px;
+}
+
+.post-category,
+.post-date,
+.author-name {
+  font-size: 14px;
+}
+
+.post-category,
+.post-date,
+.post-title,
+.author-name {
+  line-height: 1.5;
+}

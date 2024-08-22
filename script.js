@@ -65,7 +65,16 @@ const challenges = [
         repoLink:
             "https://github.com/eduardoe92/Challenge/tree/main/07-Social%20Links%20Profile",
         deployLink: "07-Social Links Profile/index.html",
-    }
+    },
+    {
+        title: "Blog Preview Card",
+        challengeNumber: "08",
+        imgSrc: "img/BlogPreviewCard.webp",
+        imgAlt: "Blog Preview Card - Challenge 08",
+        repoLink:
+        "https://github.com/eduardoe92/Challenge/tree/main/08-Blog%20Preview%20Card",
+        deployLink: "08-Blog Preview Card/index.html",
+    },
 ];
 
 const cardsContainer = document.getElementById("cards-container");
