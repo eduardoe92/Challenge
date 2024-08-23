@@ -75,6 +75,15 @@ const challenges = [
         "https://github.com/eduardoe92/Challenge/tree/main/08-Blog%20Preview%20Card",
         deployLink: "08-Blog Preview Card/index.html",
     },
+    {
+        title: "Time Tracking Dashboard",
+        challengeNumber: "09",
+        imgSrc: "img/TimeTrackingDashboard.webp",
+        imgAlt: "Time Tracking Dashboard - Challenge 09",
+        repoLink:
+            "https://github.com/eduardoe92/Challenge/tree/main/09-Time%20Tracking%20Dashboard",
+        deployLink: "09-Time Tracking Dashboard/index.html",
+    }
 ];
 
 const cardsContainer = document.getElementById("cards-container");

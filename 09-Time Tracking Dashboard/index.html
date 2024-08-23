@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reto 09 - FrontEndMentor Challenges">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Time Tracking Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-VeryDarkBlue">
+    <main class="my-auto block md:mt-[25vh]">
+      <div
+        class="lineheightnormal mx-auto mt-[80px] grid justify-center gap-6 font-sans transition-all duration-150 md:grid-cols-4 lg:mt-0 lg:max-w-[1120px]"
+      >
+        <div
+          class="max-w-[327px] rounded-b-[20px] bg-DarkBlue md:max-w-[255px]"
+        >
+          <div class="flex flex-row rounded-[15px] bg-Blue p-8 md:flex-col">
+            <img
+              src="./images/image-jeremy.webp"
+              alt=""
+              class="mr-3 h-16 w-16 rounded-full border-[3px] border-white md:h-20 md:w-20"
+            />
+            <div class="flex flex-col self-center lg:mt-11">
+              <span class="text-[15px] font-normal text-white"
+                >Report for</span
+              >
+              <h1
+                class="mt-0 text-[24px] font-light text-white lg:mb-12 lg:text-[40px]"
+              >
+                Jeremy Robson
+              </h1>
+            </div>
+          </div>
+          <ul
+            class="flex flex-row justify-between p-6 text-DesaturatedBlue md:flex-col md:space-y-5 md:p-8"
+          >
+            <li
+              id="daily"
+              class="text-lg cursor-pointer lineheightnormal hover:text-white"
+            >
+              Daily
+            </li>
+            <li
+              id="weekly"
+              class="text-lg cursor-pointer lineheightnormal hover:text-white"
+            >
+              Weekly
+            </li>
+            <li
+              id="monthly"
+              class="text-lg cursor-pointer lineheightnormal hover:text-white"
+            >
+              Monthly
+            </li>
+          </ul>
+        </div>
+        <div class="grid gap-6 grid-cols-subgrid md:col-span-3">
+          <div
+            class="play-card card hidden max-w-[327px] rounded-b-[20px] rounded-t-[15px] pt-11 md:max-w-[255px]"
+          >
+            <div
+              class="hover:bg-cardHover h-full rounded-[15px] rounded-b-[13px] bg-DarkBlue px-6 py-9 hover:cursor-pointer lg:px-7 lg:py-7"
+            >
+              <div class="flex flex-row justify-between">
+                <span class="text-[18px] font-medium text-white">Play</span>
+                <span class="self-center"
+                  ><img src="./images/icon-ellipsis.svg" alt=""
+                /></span>
+              </div>
+              <div
+                class="flex flex-row flex-wrap justify-between mt-2 md:flex-col md:justify-start"
+              >
+                <span
+                  class="text-[32px] font-light text-white lg:mt-5 lg:text-[56px]"
+                  >32hrs</span
+                >
+                <span
+                  class="self-center text-[15px] font-normal text-PaleBlue md:self-start lg:mt-2"
+                  >Previous - 36hrs</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
