@@ -16,32 +16,8 @@ In this repository you will find the solutions for various Frontend Mentor chall
 
 ## Challenges Completed
 
-- QR code component
-  - [Website](https://qrchallenge-frontendmentor.vercel.app/)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/01-QR%20Challenge/qr-code-component-main)
-  - Description: This challenge consisted of creating a QR code component for a website.
-
-- Age Calculator
-  - [Website](https://agecalculator-frontendmentor.vercel.app/)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/02-Age%20Calculator/age-calculator-app-main)
-  - Description: The challenge was to create a component to calculate the time elapsed since a specific date.
-
-- Contact Form
-  - [Website](https://contact-form-frontendmentor.vercel.app/)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/03-Contact%20Form)
-  - Description: The challenge consists of the creation and operation of a contact form.
-
-- Stats Preview Card Component
-  - [Website](https://eduardoe92.github.io/Challenge/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html/)
-  - [Repository](https://github.com/eduardoe92/Challenge/blob/main/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html)
-
-- Launch Countdown Timer
-  - [Website](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
-
-- News Homepage
-  - [Website](https://eduardoe92.github.io/Challenge/06-News%20Homepage/index.html)
-  - [Repository](https://github.com/eduardoe92/Challenge/tree/main/06-News%20Homepage)
+If you want to view all the challenges you have completed, you can go to the following web page, created for the purpose of viewing all the challenges deployed and with their respective lines of code.
+  - [Website](https://eduardoe92.github.io/Challenge/)
 
 Each challenge folder contains all the files needed for the solution. Some challenges may require installing additional dependencies. See the README inside each challenge folder for more details.
 
@@ -85,32 +61,9 @@ En este repositorio encontrarás las soluciones para diversos desafíos de Front
 
 ## Desafíos Completados
 
-- Componente de código QR
-  - [Sitio Web](https://qrchallenge-frontendmentor.vercel.app/)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/01-QR%20Challenge/qr-code-component-main)
-  - Descripción: Este desafío consistió en crear un componente de código QR para un sitio web.
+Si deseas visualizar todos los desafíos que he realizado puedes ingresar en la siguiente página web, creada con la finalidad de visualizar todos los desafíos desplegados y con sus respectivas líneas de códigos.
+  - [Sitio Web](https://eduardoe92.github.io/Challenge/)
 
-- Calculadora de edad
-  - [Sitio web](https://agecalculator-frontendmentor.vercel.app/)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/02-Age%20Calculator/age-calculator-app-main)
-  - Descripción: El desafío era crear un componente para calcular el tiempo transcurrido desde una fecha específica.
-
-- Formulario de Contacto
-  - [Sitio web](https://contact-form-frontendmentor.vercel.app/)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/03-Contact%20Form)
-  - Descripción: El reto consiste en la creación y funcionamiento de un formulario de contacto.
-
-- Stats Preview Card Component
-  - [Sitio web](https://eduardoe92.github.io/Challenge/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html/)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/blob/main/04-Stats%20Preview%20Card/stats-preview-card-component-main/index.html)
-
-- Launch Countdown Timer
-  - [Sitio web](https://eduardoe92.github.io/Challenge/05-Launch%20Countdown%20Timer/index.html)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/05-Launch%20Countdown%20Timer)
-  
-- News Homepage
-  - [Sitio web](https://eduardoe92.github.io/Challenge/06-News%20Homepage/index.html)
-  - [Repositorio](https://github.com/eduardoe92/Challenge/tree/main/06-News%20Homepage)
 
 Cada carpeta de desafío contiene todos los archivos necesarios para la solución. Algunos desafíos pueden requerir la instalación de dependencias adicionales. Consulta el README dentro de cada carpeta de desafío para más detalles.
 
