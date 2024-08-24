@@ -91,7 +91,7 @@ const challenges = [
         imgSrc: "img/ArticlePreviewComponent.webp",
         imgAlt: "Article Preview Component - Challenge 10",
         repoLink:
-            "https://github.com/eduardoe92/Challenge/tree/main/09-Article%20Preview%20Component",
+            "https://github.com/eduardoe92/Challenge/tree/main/10-Article%20Preview%20Component",
         deployLink: "10-Article Preview Component/index.html",
     }
 ];
