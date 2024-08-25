@@ -93,7 +93,16 @@ const challenges = [
         repoLink:
             "https://github.com/eduardoe92/Challenge/tree/main/10-Article%20Preview%20Component",
         deployLink: "10-Article Preview Component/index.html",
-    }
+    },
+    {
+        title: "Newsletter Sign-Up Form With Success Message",
+        challengeNumber: "11",
+        imgSrc: "img/NewsletterSign-UpFormWithSuccessMessage.webp",
+        imgAlt: "Newsletter Sign-Up Form With Success Message - Challenge 11",
+        repoLink:
+            "https://github.com/eduardoe92/Challenge/tree/main/11-Newsletter%20Sign-Up%20Form%20With%20Success%20Message",
+        deployLink: "11-Newsletter Sign-Up Form With Success Message/index.html",
+    },
 ];
 
 const cardsContainer = document.getElementById("cards-container");
