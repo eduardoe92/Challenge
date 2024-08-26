@@ -72,7 +72,7 @@ const challenges = [
         imgSrc: "img/BlogPreviewCard.webp",
         imgAlt: "Blog Preview Card - Challenge 08",
         repoLink:
-        "https://github.com/eduardoe92/Challenge/tree/main/08-Blog%20Preview%20Card",
+            "https://github.com/eduardoe92/Challenge/tree/main/08-Blog%20Preview%20Card",
         deployLink: "08-Blog Preview Card/index.html",
     },
     {
@@ -83,7 +83,7 @@ const challenges = [
         repoLink:
             "https://github.com/eduardoe92/Challenge/tree/main/09-Time%20Tracking%20Dashboard",
         deployLink: "09-Time Tracking Dashboard/index.html",
-        
+
     },
     {
         title: "Article Preview Component",
@@ -103,6 +103,15 @@ const challenges = [
             "https://github.com/eduardoe92/Challenge/tree/main/11-Newsletter%20Sign-Up%20Form%20With%20Success%20Message",
         deployLink: "11-Newsletter Sign-Up Form With Success Message/index.html",
     },
+    {
+        title: "Product Preview Card",
+        challengeNumber: "12",
+        imgSrc: "img/ProductPreviewCard.webp",
+        imgAlt: "Product Preview Card - Challenge 12",
+        repoLink:
+            "https://github.com/eduardoe92/Challenge/tree/main/12-Product%20Preview%20Card",
+        deployLink: "12-Product Preview Card/index.html",
+    }
 ];
 
 const cardsContainer = document.getElementById("cards-container");
