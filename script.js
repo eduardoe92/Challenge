@@ -111,6 +111,15 @@ const challenges = [
         repoLink:
             "https://github.com/eduardoe92/Challenge/tree/main/12-Product%20Preview%20Card",
         deployLink: "12-Product Preview Card/index.html",
+    },
+    {
+        title: "Recipe Page",
+        challengeNumber: "13",
+        imgSrc: "img/RecipePage.webp",
+        imgAlt: "Recipe Page - Challenge 13",
+        repoLink:
+            "https://github.com/eduardoe92/Challenge/tree/main/13-Recipe%20Page",
+        deployLink: "13-Recipe Page/index.html",
     }
 ];
 

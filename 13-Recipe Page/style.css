@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+  --Eggshell: #f3e5d7;
+  --BrandyRed: #854632;
+  --DarkCharcoal: #312e2c;
+  --DarkRaspberry: #7a284e;
+  --Snow: #fff7fb;
+  --WengeBrown: #5f564d;
+  --White: #ffffff;
+  --WhiteCoffee: #e3ddd7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: var(--Eggshell);
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+}
+
+.card-img {
+  display: flex;
+}
+
+.card-content {
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+}
+
+.card-content-intro {
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.card-content-intro-title {
+  margin: 0;
+  margin-bottom: 24px;
+  color: var(--DarkCharcoal);
+  font-family: 'Young Serif';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.card-content-intro-desc {
+  margin: 0;
+  color: var(--WengeBrown);
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-content-prep {
+  background-color: var(--Snow);
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 12px;
+}
+
+.card-content-prep-title {
+  color: var(--DarkRaspberry);
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Outfit';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.card-content-prep-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 24px;
+  color: var(--WengeBrown);
+}
+
+.card-content-prep-list-item {
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.card-content-prep-list-item::marker {
+  color: var(--DarkRaspberry);
+  font-size: 10px;
+}
+
+.card-content-prep-list-item strong {
+  padding: 0;
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.card-ingr {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.card_ingr-title {
+  margin: 0;
+  color: var(--BrandyRed);
+  font-family: 'Young Serif';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.card-ingr-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--WhiteCoffee);
+}
+
+.card-ingr-list-item {
+  padding-left: 16px;
+  color: var(--WengeBrown);
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.card-ingr-list-item::marker {
+  color: var(--BrandyRed);
+  font-size: 10px;
+}
+
+.card-instruction {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--WhiteCoffee);
+}
+
+.card-instruction-title {
+  margin: 0;
+  color: var(--BrandyRed);
+  font-family: 'Young Serif';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.card-instruction-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 24px;
+}
+
+.card-instruction-list-item {
+  padding-left: 16px;
+  color: var(--WengeBrown);
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 8px;
+}
+
+.card-instruction-list-item strong {
+  color: var(--WengeBrown);
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.card-instruction-list-item::marker {
+  color: var(--BrandyRed);
+  font-family: 'Outfit';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.card-nutrition-title {
+  margin: 0;
+  margin-bottom: 24px;
+  color: var(--BrandyRed);
+  font-family: 'Young Serif';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.card-nutrition-text {
+  color: var(--WengeBrown);
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.card-nutrition-table {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card-nutrition-table-item {
+  display: flex;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--WhiteCoffee);
+  flex-basis: 50%;
+}
+
+.card-nutrition-table-item--first {
+  flex-basis: 50%;
+  color: var(--WengeBrown);
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 30px;
+}
+
+.card-nutrition-table-item--second {
+  color: var(--BrandyRed);
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 80vw;
+    border-radius: 24px;
+  }
+
+  .card-content-intro-title {
+    color: var(--DarkCharcoal);
+    font-family: 'Young Serif';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .card-content-prep {
+    padding: 28px;
+  }
+  .card-content-prep-list-item::marker {
+    font-size: 12px;
+  }
+  .card-ingr-list-item::marker {
+    font-size: 12px;
+  }
+  .card-content {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    border-radius: 24px;
+    padding: 40px;
+    width: 736px;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+    padding-top: 124px;
+  }
+  .card-img {
+    border-radius: 12px;
+  }
+  .card-content {
+    padding: 0;
+    padding-top: 40px;
+  }
+}
