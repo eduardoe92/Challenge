@@ -120,7 +120,16 @@ const challenges = [
         repoLink:
             "https://github.com/eduardoe92/Challenge/tree/main/13-Recipe%20Page",
         deployLink: "13-Recipe Page/index.html",
-    }
+    },
+    {
+        title: "Testimonials Grid Section",
+        challengeNumber: "14",
+        imgSrc: "img/TestimonialsGridSection.webp",
+        imgAlt: "Testimonials Grid Section - Challenge 14",
+        repoLink:
+            "https://github.com/eduardoe92/Challenge/tree/main/14-Testimonials%20Grid%20Section",
+        deployLink: "14-Testimonials Grid Section/index.html",
+    },
 ];
 
 const cardsContainer = document.getElementById("cards-container");
