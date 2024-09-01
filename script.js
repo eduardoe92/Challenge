@@ -130,6 +130,15 @@ const challenges = [
             "https://github.com/eduardoe92/Challenge/tree/main/14-Testimonials%20Grid%20Section",
         deployLink: "14-Testimonials Grid Section/index.html",
     },
+    {
+        title: "Mortgage Repayment Calculator",
+        challengeNumber: "15",
+        imgSrc: "img/MortgageRepaymentCalculator.webp",
+        imgAlt: "Mortgage Repayment Calculator - Challenge 15",
+        repoLink:
+        "https://github.com/eduardoe92/Challenge/tree/main/15-Mortgage%20Repayment%20Calculator",
+        deployLink: "15-Mortgage Repayment Calculator/index.html",
+    },
 ];
 
 const cardsContainer = document.getElementById("cards-container");
