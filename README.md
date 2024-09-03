@@ -17,7 +17,7 @@ In this repository you will find the solutions for various Frontend Mentor chall
 ## Challenges Completed
 
 If you want to view all the challenges you have completed, you can go to the following web page, created for the purpose of viewing all the challenges deployed and with their respective lines of code.
-  - [Website](https://eduardoe92.github.io/Challenge/)
+  - [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoe92.github.io/Challenge/)
 
 Each challenge folder contains all the files needed for the solution. Some challenges may require installing additional dependencies. See the README inside each challenge folder for more details.
 
@@ -28,6 +28,8 @@ Each challenge folder contains all the files needed for the solution. Some chall
 - JavaScript
 - React
 - Next.js
+- Bootstrap
+- Tailwind-CSS
 - Styled Components
 - Other technologies depending on the challenge
 
@@ -35,7 +37,9 @@ Each challenge folder contains all the files needed for the solution. Some chall
 
 - Name: Eduardo Elias Chacon
 - Frontend Mentor: [@eduardoe92](https://www.frontendmentor.io/profile/eduardoe92)
-- Instagram: [@eduardo.e](https://www.instagram.com/eduardo.e)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+- [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/)
+- [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/eduardo.e)
 
 ## Thanks
 
@@ -62,7 +66,7 @@ En este repositorio encontrarás las soluciones para diversos desafíos de Front
 ## Desafíos Completados
 
 Si deseas visualizar todos los desafíos que he realizado puedes ingresar en la siguiente página web, creada con la finalidad de visualizar todos los desafíos desplegados y con sus respectivas líneas de códigos.
-  - [Sitio Web](https://eduardoe92.github.io/Challenge/)
+  - [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoe92.github.io/Challenge/)
 
 
 Cada carpeta de desafío contiene todos los archivos necesarios para la solución. Algunos desafíos pueden requerir la instalación de dependencias adicionales. Consulta el README dentro de cada carpeta de desafío para más detalles.
@@ -74,6 +78,8 @@ Cada carpeta de desafío contiene todos los archivos necesarios para la solució
 - JavaScript
 - React
 - Next.js
+- Bootstrap
+- Tailwind-CSS
 - Styled Components
 - Otras tecnologías según el reto
 
@@ -81,7 +87,9 @@ Cada carpeta de desafío contiene todos los archivos necesarios para la solució
 
 - Nombre: Eduardo Elias Chacon
 - Frontend Mentor: [@eduardoe92](https://www.frontendmentor.io/profile/eduardoe92)
-- Instagram: [@eduardo.e](https://www.instagram.com/eduardo.e)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+- [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/)
+- [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/eduardo.e)
 
 ## Agradecimientos
 
