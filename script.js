@@ -138,6 +138,15 @@ const challenges = [
         deployLink: "15-Mortgage Repayment Calculator/index.html",
         description: "Se creó una calculadora de pago de hipoteca, que permite a los usuarios calcular sus pagos mensuales basados en el monto del préstamo, la tasa de interés y el plazo.",
     },
+    {
+        title: "Room Homepage",
+        challengeNumber: "16",
+        imgSrc: "img/RoomHomepage.webp",
+        imgAlt: "Room Homepage - Challenge 16",
+        repoLink: "https://github.com/eduardoe92/Challenge/tree/main/16-Room%20Homepage",
+        deployLink: "16-Room Homepage/index.html",
+        description: "Se creó una página principal para la decoración de habitaciones, donde los usuarios pueden explorar diferentes estilos y temas de decoración para su hogar.",
+    }
 ];
 
 const cardsContainer = document.getElementById("cards-container");
