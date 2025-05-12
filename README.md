@@ -6,7 +6,9 @@ Este repositorio contiene soluciones para varios desafíos de Frontend Mentor. L
 
 ## 🌐 Despliegue
  
-- Puedes verlo en: <a href="https://eduardoe92.github.io/Challenge/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
+Puedes verlo en: <a href="https://eduardoe92.github.io/Challenge/">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
 
 ---
 
@@ -75,7 +77,9 @@ This repository contains solutions for various Frontend Mentor challenges. Front
 
 ## 🌐 Deployment
  
-- You can see it in: <a href="https://eduardoe92.github.io/Challenge/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
+You can see it in: <a href="https://eduardoe92.github.io/Challenge/">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
 
 ---
 
